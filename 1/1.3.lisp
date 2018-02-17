@@ -2,7 +2,7 @@
   (- (+ (square a)
         (square b)
         (square c))
-     (min a (min b c))))
+        (square (min a (min b c)))))
 
 (define (square x) (* x x))
 (define (min a b) (if (< a b) a b))
