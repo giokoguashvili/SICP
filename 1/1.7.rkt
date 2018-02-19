@@ -1,3 +1,5 @@
+#lang racket
+
 (define (sqrt x) (sqrt-iter 0.5 1.0 x))
 
 (define (sqrt-iter prev-guess guess x)
