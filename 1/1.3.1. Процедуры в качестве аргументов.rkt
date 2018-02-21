@@ -42,3 +42,14 @@
     (sum-iter a b next fun))
 
 (pi-f pi-sum2) ;3.141572653589795
+
+; ====================================
+
+(define (integral a b f dx)
+    (define (add-dx x) (+ x dx))
+    (define const (+ a (/ dx 2)))
+    (* (sum-iter const b add-dx f) dx))
+
+; (Точное значение интеграла cube от 0 до 1 равно 1/4.)
+(integral 0 1 cube 0.01)  ;0.24998750000000042
+(integral 0 1 cube 0.001) ;0.249999875000001
