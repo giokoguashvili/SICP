@@ -9,4 +9,15 @@
     (define (even? x) (= (remainder x 2) 0))
     (iter 1 x n))
 
-(power 2 4)
+(define (power2 a n)
+    (define (even? a) (= (remainder a 2) 1))
+    (define (iter a b n)
+        (if (= n 0)
+            b
+            (if (even? n)
+                (iter a (* b a) (- n 1))
+                (iter (* a a) b (/ n 2)))))
+    (iter a 1 n))
+
+(power 2 7)
+(power2 2 7)
