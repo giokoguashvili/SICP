@@ -19,3 +19,7 @@
 (prime? 13)
 (prime? 19)
 (prime? 10)
+
+(smallest-divisor 199)
+(smallest-divisor 1999)
+(smallest-divisor 19999)
