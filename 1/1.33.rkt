@@ -35,4 +35,18 @@
 
 (sum-prime-squares 2 3) ;13
 (sum-prime-squares 2 5) ;38
-           
+
+(define (gcd a b)
+    (if (= b 0)
+        a
+        (gcd b (remainder a b))))
+
+(gcd 8 16)
+
+(define (sum-of-all n)
+    (define (id x) x)
+    (define (inc x) (+ x 1))
+    (define (pred x) (= 1 (gcd x n)))
+    (filtered-accumulate * 1 id 1 inc (- n 1) pred))
+
+(sum-of-all 10)
