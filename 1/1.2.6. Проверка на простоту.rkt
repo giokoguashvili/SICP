@@ -1,7 +1,5 @@
 #lang racket
 
-<<<<<<< HEAD
-=======
 (define (prime? n)
     (= (smallest-divisor n) n))
 
@@ -25,4 +23,3 @@
 (smallest-divisor 199)
 (smallest-divisor 1999)
 (smallest-divisor 19999)
->>>>>>> 75399938a6f03d8df674656e48bfb5f48bd05542

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#lang racket
-=======
 #lang racket
 
 (define (prime? n)
@@ -53,4 +50,3 @@
     (filtered-accumulate * 1 id 1 inc (- n 1) pred))
 
 (sum-of-all 10)
->>>>>>> 75399938a6f03d8df674656e48bfb5f48bd05542
