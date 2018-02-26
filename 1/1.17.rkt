@@ -4,14 +4,16 @@
     (if (= b 0)
         0
         (+ a (** a (- b 1)))))
-
-(** 7 4)
+        
+(define (odd? x) (= (remainder x 2) 1))
 
 (define (*** a b)
     (define (double x) (+ x x))
     (define (halve x) (/ x 2))
-    (cond ((= b 0) 0)
-        ((even? b) (double (** a (halve b))))
-        (else (+ a (*** a (- b 1))))))
+    (cond 
+        ((= b 0) 0)
+        ((= b 1) a)
+        ((odd? b) (+ a (*** a (- b 1))))
+        (else (*** (double a) (halve b)))))
 
-(*** 7 4)
+(*** 4 18)
