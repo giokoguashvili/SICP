@@ -2,14 +2,14 @@
 
 ### Books:
 
-- [Structure and Interpretation of Computer Programs by Gerald Jay Sussman and Hal Abelson](https://mitpress.mit.edu/sicp/) 
+- [Structure and Interpretation of Computer Programs - Gerald Jay Sussman and Hal Abelson](https://mitpress.mit.edu/sicp/) 
   - [ENG](http://sarabander.github.io/sicp/)
   - [RUS](http://newstar.rinet.ru/~goga/sicp/sicp.pdf)
 
-- [How to Design Programs by Matthew Flatt, Matthias Felleisen, Robert Bruce Findler, and Shriram Krishnamurthi](http://www.htdp.org/)
+- [How to Design Programs - Matthew Flatt, Matthias Felleisen, Robert Bruce Findler, and Shriram Krishnamurthi](http://www.htdp.org/)
   - [ENG](http://htdp.org/2018-01-06/Book/index.html)
 
-- [Introduction to Functional Programming by John Harrison](http://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/)
+- [Introduction to Functional Programming - John Harrison](http://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/)
   - [ENG](http://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/all.pdf)
   - [RUS](https://1drv.ms/b/s!Am4vIusFYxS9yAt_ZPrQX3CsVTTO)
 
