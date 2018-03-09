@@ -13,6 +13,10 @@
   - [ENG](http://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/all.pdf)
   - [RUS](https://1drv.ms/b/s!Am4vIusFYxS9yAt_ZPrQX3CsVTTO)
 
+- [Types and Programming Languages - Benjamin C. Pierce](https://g.co/kgs/aX4rFS)
+  - [ENG](http://port70.net/~nsz/articles/book/pierce_types_and_programming_languages_2002.pdf)
+  - [RUS](http://starling.rinet.ru/~goga/tapl/tapl.pdf)
+
 ### Courses:
 
 - [Денис Николаевич Москвин](http://mit.spbau.ru/lecturers/%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B8%D0%BD-%D0%B4%D0%B5%D0%BD%D0%B8%D1%81-%D0%BD%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%B2%D0%B8%D1%87) - twitter [@deniok](https://twitter.com/deniok)
