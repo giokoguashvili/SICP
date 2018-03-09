@@ -23,3 +23,19 @@
   (rlen 0 xs))
 
 (len xs)
+
+(define (append xs ys)
+  (if (null? xs)
+    ys
+    (cons (car xs) (append (cdr xs) ys))))
+
+(define ys (list 10 11 12 13))
+
+(append xs ys)
+
+(define (last-pair xs)
+  (if (null? (cdr xs))
+    (car xs)
+    (last-pair (cdr xs))))
+
+(last-pair ys)
