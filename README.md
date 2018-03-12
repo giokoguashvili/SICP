@@ -11,7 +11,7 @@
 
 - [Introduction to Functional Programming - John Harrison](http://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/)
   - [ENG](http://www.cl.cam.ac.uk/teaching/Lectures/funprog-jrh-1996/all.pdf)
-  - [RUS](https://1drv.ms/b/s!Am4vIusFYxS9yAt_ZPrQX3CsVTTO)
+  - [RUS](https://drive.google.com/file/d/1FOpZbNFyJa-ySRP3ksWM4xw0YHmzSHcA/view?usp=sharing)
 
 - [Types and Programming Languages - Benjamin C. Pierce](https://g.co/kgs/aX4rFS)
   - [ENG](http://port70.net/~nsz/articles/book/pierce_types_and_programming_languages_2002.pdf)
