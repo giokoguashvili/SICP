@@ -21,3 +21,5 @@
       (f tree null-value))))
 
 (ttmap (lambda (r l) (cons r l)) (list) xs)
+(define ys (list 1 (list (list 2 3) 4)))
+(ttmap (lambda (r l) (cons r l)) (list) ys)
