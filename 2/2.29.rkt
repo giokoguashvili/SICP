@@ -58,3 +58,19 @@ rb
 
 mobile2
 (total-weight mobile2)
+
+(define (balanced? mobile)
+  (define (balanced-branch? branch)
+  	(if (pair? (branch-structure branch))
+    		(balanced? (branch-structure branch))
+    		#t))
+  (define (torque branch)
+    (*  (branch-length branch) (total-weight (branch-structure branch))))
+  (let ((left (left-branch mobile))
+	(right (right-branch mobile)))
+    (and (= (torque left) (torque right))
+	 (balanced-branch? left)
+	 (balanced-branch? right))))
+
+(balanced? mobile2)
+    
