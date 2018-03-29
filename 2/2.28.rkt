@@ -23,3 +23,4 @@
 (ttmap (lambda (r l) (cons r l)) (list) xs)
 (define ys (list 1 (list (list 2 3) 4)))
 (ttmap (lambda (r l) (cons r l)) (list) ys)
+(ttmap (lambda (r l) (cons r l)) (list) (list 1 (list 2 3) 4 5 (list 6 7 (list 8 9))))
