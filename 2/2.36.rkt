@@ -7,9 +7,10 @@
 	(accumulate op initial (cdr xs)))))
 
 (define (accumulate-n op initial seqs)
-  (if (null? seqs)
-    (list)
-    (cons (accumulate op initial (car seqs))
-	  (accumulate-n op initial (cdr seqs)))))
+  (if (null? (car seqs))
+    (list) 
+    (cons (accumulate op initial (map car seqs))
+	  (accumulate-n op initial (map cdr seqs)))))
 
 (accumulate-n + 0 (list (list 1 2 3) (list 4 5 6) (list 7 8 9)))
+(accumulate-n + 0 (list (list 1 2 3) (list 4 5 6) (list 7 8 9) (list 10 11 12)))
