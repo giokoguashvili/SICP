@@ -17,6 +17,9 @@
   - [ENG](http://port70.net/~nsz/articles/book/pierce_types_and_programming_languages_2002.pdf)
   - [RUS](http://starling.rinet.ru/~goga/tapl/tapl.pdf)
 
+- [A theory of Objects - Martín Abadi, Luca Cardelli](https://g.co/kgs/yqSynA)
+  - [ENG]((https://drive.google.com/file/d/1toAiExKU9vByXIku9eGyQp5MPFD1J6E6/view?usp=sharing)
+  
 ### Blogs:
 
 - http://matt.might.net/
